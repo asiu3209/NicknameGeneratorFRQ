@@ -1,6 +1,7 @@
 public class NicknameGenaratorRunner {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
+
         NicknameGenerator name1 = new NicknameGenerator("CELESE","NG");
         System.out.println(name1.nicknames());
         NicknameGenerator name2 = new NicknameGenerator("GLEN","SMITH");
